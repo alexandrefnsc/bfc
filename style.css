@@ -1,0 +1,237 @@
+/*----------FONT-----------*/
+@font-face {
+	font-family: "FatFrank-Free";
+	src: url("fonts/FatFrank-Free.otf");
+	}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600);
+
+/*------STYLE-------*/
+
+p{
+	line-height: 30px;
+}
+
+
+body{
+	background: white;
+}
+
+/*HEADER*/
+header{
+	background-color: #b92826;
+	background-image: url('images/headerBG.png');
+}
+
+#menu-social{
+	padding-top: 50px;
+}
+
+#menu-social a{
+	color:white;
+}
+
+#menu-social a:hover{
+	cursor: pointer;
+}
+
+.icon-social i{
+	padding-top: 70px;
+}
+
+#subtitle-logo{
+	clear: both;
+	text-align: center;
+	color: white;
+	font-family: 'Rubik One', sans-serif;
+	text-transform: uppercase;
+	font-size: 20pt;
+	padding-top: 22px;
+}
+
+#menu-top{
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+#menu-top li{
+	display: inline-block;
+	padding: 0px 15px;
+}
+
+header button{
+	border: solid #FFF !important;
+	color: white;
+}
+
+/*SLIDESHOW*/
+#slideshow{
+	height: 100%;
+	background: #7b5433;
+	padding-top: 300px;
+}
+
+#slideshow .bx-wrapper{
+	margin: 0px;
+}
+
+#slideshow .bx-wrapper .bx-viewport{
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow:  none !important;
+	border:  none !important;
+	left: 0px !important;
+	background: none !important;
+}
+
+#slideshow .bx-wrapper .bx-pager{
+	top: 15px;
+}
+
+#slideshow .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom: 0px;
+}
+
+#slideshow .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background: #b92826 !important;
+}
+
+#slideshow .bx-wrapper .bx-pager.bx-default-pager a{
+	background: #FFF;
+}
+
+/*CARDAPIO*/
+#cardapio{
+	padding: 30px 0px 50px 0px;
+}
+
+#cardapio h1{
+	text-align: center;
+	color: #b92826;
+}
+
+#menu-cardapio{
+	text-align: center;
+	margin-top: 15px;
+}
+
+#menu-cardapio li{
+	display: inline-block;
+	padding: 0px 30px;
+}
+
+#menu-cardapio li>a{
+	color: #b92826;
+}
+
+#itens-cardapio{
+	margin-top: 50px;
+}
+
+#itens-cardapio h3{
+	color:  #b92826;
+}
+
+.foto-cardapio{
+	width: 470px;
+	height: 470px;
+	overflow: hidden;
+	background: #000;
+	border-radius: 300px;
+}
+
+.txt-interno{
+	padding:  20px 0px;
+}
+
+.btn-precos{
+	padding-top: 20px;
+}
+
+#download-cardapio{
+	clear: both;
+	padding-top: 30px;
+	text-align: center;
+}
+
+/*------------ SEJA UM FRANQUEADO ---------*/
+#seja-franqueado{
+	text-align: center;
+	background: #b92826;
+	color: white;
+	padding: 30px 0px 50px 0px;
+}
+
+#seja-franqueado h1{
+	padding-bottom: 20px;
+}
+
+.input-franqueado{
+	padding-top: 30px;
+}
+
+/*---------- QUEM SOMOS -----------------*/
+#quem-somos{
+	text-align: center;
+	color: #b92826;
+	padding: 30px 0px 50px 0px;
+}
+
+#quem-somos h1{
+	padding-bottom: 20px;
+}
+
+#quem-somos p{
+	color: black;
+}
+
+/*---------- CONTATOS -----------------*/
+#contatos{
+	text-align: center;
+	background: #b92826;
+	color: white;
+	padding: 30px 0px 50px 0px;
+}
+
+#form-contato{
+	margin-top: 20px;
+}
+
+#form-contato input{
+	margin-bottom: 10px;
+}
+
+#form-contato textarea{
+	height: 237px;
+}
+
+#form-contato .btn{
+	margin-top: 10px;
+}
+
+/*---------- TRABALHE CONOSCO ----------*/
+#trabalhe-conosco{
+	text-align: center;
+	background: #b92826;
+	color: white;
+	padding: 30px 0px 50px 0px;
+}
+
+/*--------- FOOTER --------------------------*/
+footer{
+	text-align: center;
+	background: #b92826;
+	color: white;
+	padding: 30px 0px 50px 0px;
+}
+
+footer a{
+	color: white;
+}
+
+/*---------------------- SMARTPHONE ---------------------*/
+
