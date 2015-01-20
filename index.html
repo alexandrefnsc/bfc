@@ -2,11 +2,6 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<!-- JS -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-		<script src="js/pessoal.js"></script>
-		<script src="js/jquery.bxslider.min.js"></script>
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -28,8 +23,8 @@
 						<a href="#"><i class="fa fa-facebook-square fa-2x col-md-1 col-xs-1"></i></a>
 						<a href="#"><i class="fa fa-instagram fa-2x col-md-1 col-xs-1"></i></a>
 					</div>
-					<div class="logo-header col-md-4 col-xs-6">
-						<img src="images/logoHeader.png" alt="">
+					<div class="logo-header col-md-3 col-xs-6">
+						<img src="images/logoHeader.svg" alt="">
 					</div>
 					<div class="icon-social">
 						<a href="#"><i class="fa fa-twitter-square fa-2x col-md-1 col-xs-1"></i></a>
@@ -65,13 +60,15 @@
 					<li><img src="images/teste-slide.png" /></li>
 				</ul>
 			</div>
-		</div><!-- FIM SLIDESHOW -->
-		<div id="cardapio"><!-- CARDAPIO -->
+		</div>
+		<!-- FIM SLIDESHOW -->
+		<!-- CARDAPIO -->
+		<div id="cardapio">
 			<div class="container">
 				<h1>Cardápio</h1>
 				<ul id="menu-cardapio">
-					<li><a href="#">Baldes</a></li>
-					<li><a href="#">Batatas</a></li>
+					<li><a href="javascrip:void(0)" data-target="#itens-cardapio" data-slide-to="0">Baldes</a></li>
+					<li><a href="javascrip:void(0)" data-target="#itens-cardapio" data-slide-to="1">Batatas</a></li>
 					<li><a href="#">Bebidas</a></li>
 					<li><a href="#">Promoções</a></li>
 					<li><a href="#">Refeições</a></li>
@@ -79,34 +76,53 @@
 					<li><a href="#">Sanduíches</a></li>
 					<li><a href="#">Sobremesas</a></li>
 				</ul>
-				<div id="itens-cardapio">
-					<div class="show-cardapio">
-						<div class="foto-cardapio col-md-5"></div>
-						<span class="col-md-1"></span>
-						<div class="col-md-6 txt-cardapio">
-							<div class="txt-interno">
-								<h3>Baldes</h3>
-								<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+				<ul class="submenu-cardapio" id="submenu-baldes">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">HOME</a></li>
+				</ul>
+				<div id="itens-cardapio" class="carousel carousel-fade slide" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+						<!-- ITEM 01 -->
+						<div class="show-cardapio item active">
+							<div class="foto-cardapio col-md-6"></div>
+							<div class="col-md-6 txt-cardapio">
+								<div class="txt-interno">
+									<h3>Baldes</h3>
+									<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									<h3>BFC Mix</h3>
+									<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									<div class="btn-precos">
+										<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">P - R$ 99,99</button>
+										<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">M - R$ 99,99</button>
+										<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">G - R$ 99,99</button>
+									</div>
+								</div>
 							</div>
-							<div class="txt-interno">
-								<h3>BFC Mix</h3>
-								<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-								<div class="btn-precos">
-									<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">P - R$ 99,99</button>
-									<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">M - R$ 99,99</button>
-									<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">G - R$ 99,99</button>
+						</div>
+						<!-- ITEM 02 -->
+						<div class="show-cardapio item">
+							<div class="foto-cardapio col-md-6"></div>
+							<div class="col-md-6 txt-cardapio">
+								<div class="txt-interno">
+									<h3>Baldes</h3>
+									<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									<h3>BFC Hot</h3>
+									<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									<div class="btn-precos">
+										<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">P - R$ 99,99</button>
+										<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">M - R$ 99,99</button>
+										<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">G - R$ 99,99</button>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div id="download-cardapio">
-					<div class="container">
-						<button type="button" class="btn btn-danger dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="false">Download Cardápio Completo</button>
-					</div>
-				</div>
 			</div>
-		</div><!-- FIM CARDAPIO -->
+		</div>
+		<!-- SEJA UM FRANQUEADO -->
 		<div id="seja-franqueado">
 			<div class="container">
 				<h1>Seja um Franqueado</h1>
@@ -118,13 +134,15 @@
 				</div>
 				<span class="col-md-2"></span>
 			</div>
-		</div><!-- FIM SEJA FRANQUEADO -->
+		</div>
+		<!-- QUEM SOMOS -->
 		<div id="quem-somos">
 			<div class="container">
 				<h1>Brazilian Fried Chicken</h1>
 				<p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
 			</div>
-		</div><!-- FIM QUEM SOMOS -->
+		</div>
+		<!-- CONTATO -->
 		<div id="contatos">
 			<div class="container">
 				<h1>Contatos</h1>
@@ -138,7 +156,8 @@
 				</div>
 				<span class="col-md-2"></span>
 			</div>
-		</div><!-- FIM CONTATOS -->
+		</div>
+		<!-- TRABALHE CONOSCO -->
 		<div id="trabalhe-conosco">
 			<div class="container">
 				<h1>Trabalhe Conosco</h1>
@@ -150,7 +169,8 @@
 				</div>
 				<span class="col-md-2"></span>
 			</div>
-		</div><!-- FIM TRABALHE CONOSCO -->
+		</div>
+		<!-- FOOTER -->
 		<footer>
 			<div class="container">
 				<span class="col-md-3"></span>
@@ -164,5 +184,10 @@
 				<span class="col-md-3"></span>
 			</div>
 		</footer>
+		<!-- JS -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script src="js/pessoal.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
 	</body>
 </html>

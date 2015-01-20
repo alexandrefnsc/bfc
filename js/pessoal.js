@@ -9,7 +9,7 @@ $(document).ready(function(){
 			$('#subtitle-logo').slideDown("slow");
 		}
 		return false;
-   });
+			});
 // ------------------------------------------------- BX SLIDER ----------//
 	$('.bxslider').bxSlider({
 		mode:'fade',
@@ -18,35 +18,35 @@ $(document).ready(function(){
 	});
 //--------------------------------------------------TUDO REFERENTE AO FAUX-MENU CLICK-----//
 	$(".home").click(function(){
-   		 $('body,html').animate({scrollTop: $("#slideshow").offset().top-321}, "slow");
-   		 return false;
-   });
+						$('body,html').animate({scrollTop: $("#slideshow").offset().top-321}, "slow");
+						return false;
+			});
 
 	$(".cardapio").click(function(){
-   		 $('body,html').animate({scrollTop: $("#cardapio").offset().top -246}, "slow");
-   		 return false;
-   });
+						$('body,html').animate({scrollTop: $("#cardapio").offset().top -182}, "slow");
+						return false;
+			});
 
-   $(".seja-franqueado").click(function(){
-   		 $('body,html').animate({scrollTop: $("#seja-franqueado").offset().top-246}, "slow");
-   		 return false;
-   });
+			$(".seja-franqueado").click(function(){
+						$('body,html').animate({scrollTop: $("#seja-franqueado").offset().top-182}, "slow");
+						return false;
+			});
 
-   $(".quem-somos").click(function(){
-   		 $('body,html').animate({scrollTop: $("#quem-somos").offset().top-246}, "slow");
-   		 return false;
-   });
+			$(".quem-somos").click(function(){
+						$('body,html').animate({scrollTop: $("#quem-somos").offset().top-182}, "slow");
+						return false;
+			});
 
-   $(".trabalhe-conosco").click(function(){
-   		 $('body,html').animate({scrollTop: $("#trabalhe-conosco").offset().top-246}, "slow");
-   		 return false;
-   });
+			$(".trabalhe-conosco").click(function(){
+						$('body,html').animate({scrollTop: $("#trabalhe-conosco").offset().top-182}, "slow");
+						return false;
+			});
 
 
-   $(".contatos").click(function(){
-   		 $('body,html').animate({scrollTop: $("#contatos").offset().top-246}, "slow");
-   		 return false;
-   });
+			$(".contatos").click(function(){
+						$('body,html').animate({scrollTop: $("#contatos").offset().top-182}, "slow");
+						return false;
+			});
 
 
 });
